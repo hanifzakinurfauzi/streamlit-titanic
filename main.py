@@ -18,11 +18,11 @@ def preprocess_data(pclass, sex, age, age_group, sibsp, parch, tanggungan, fare,
     df = pd.DataFrame(data)
 
     # Load encoders and transformers
-    encoding_sex = joblib.load('./encoded/encoder_sex.joblib')
-    encoding_embarked = joblib.load('./encoded/encoder_embarked.joblib')
-    encoding_agegroup = joblib.load('./encoded/encoder_agegroup.joblib')
-    standar_age = joblib.load('./standarization/standarisasi_age.joblib')
-    standar_fare = joblib.load('./standarization/standarisasi_fare.joblib')
+    encoding_sex = joblib.load('./encoder_sex.joblib')
+    encoding_embarked = joblib.load('./encoder_embarked.joblib')
+    encoding_agegroup = joblib.load('./encoder_agegroup.joblib')
+    standar_age = joblib.load('./standarisasi_age.joblib')
+    standar_fare = joblib.load('./standarisasi_fare.joblib')
 
     # Apply transformations
     df['Sex'] = encoding_sex.transform(df['Sex'])
@@ -36,7 +36,7 @@ def preprocess_data(pclass, sex, age, age_group, sibsp, parch, tanggungan, fare,
 def predict(df, model_name='svc'):
 
     # Load the model and make predictions
-    model = joblib.load(f'./model/{model_name}.joblib')
+    model = joblib.load(f'./{model_name}.joblib')
     predictions = model.predict(df)
 
     return predictions
