@@ -1,6 +1,6 @@
 # Project Titanic Survival Prediction
-Repository ini merupakan salah satu proses dari project mandiri Bootcamp Data Science di Qarir Generator Batch 28 dan disusun oleh:
-Hanif Zaki Nur Fauzi
+Repository ini merupakan salah satu proses dari project mandiri Bootcamp Data Science di Qarir Generator Batch 28 dan disusun oleh:<br>
+Hanif Zaki Nur Fauzi<br>
 Data source: https://www.kaggle.com/code/alexisbcook/titanic-tutorial
 
 ## Introduction
@@ -15,20 +15,21 @@ Melalui analisis dataset Titanic, tujuan penelitian ini adalah untuk menentukan 
 
 ## Metrics Evaluation
 ```Precision```: Karena kita ingin meminimalkan jumlah prediksi yang salah tentang orang yang tidak selamat. Artinya kita ingin mengurangi prediksi salah orang yang tidka selamat tapi kenyataannya selamat.
-AUC-ROC: mengukur kualitas keseluruhan model untuk memisahkan kelas positif dan negatif. Kurva ROC (Receiver Operating Characteristic) memplot nilai True Positive Rate (Recall) terhadap False Positive Rate pada berbagai threshold. AUC-ROC memberikan nilai keseluruhan kinerja model independen dari threshold.
-Variable Description
-PassengerId: unique id number to each passenger
-Survived: passenger survive(1) or died(0)
-Pclass: passenger class
-Name: name
-Sex: gender of passenger
-Age: age of passenger
-SibSp: number of siblings/spouses
-Parch: number of parents/children
-Ticket: ticket number
-Fare: amount of money spent on ticket
-Cabin: cabin category
-Embarked: port where passenger embarked (C = Cherbourg, Q = Queenstown, S = Southampton)
+```AUC-ROC```: mengukur kualitas keseluruhan model untuk memisahkan kelas positif dan negatif. Kurva ROC (Receiver Operating Characteristic) memplot nilai True Positive Rate (Recall) terhadap False Positive Rate pada berbagai threshold. AUC-ROC memberikan nilai keseluruhan kinerja model independen dari threshold.
+
+##Variable Description
+```PassengerId```: unique id number to each passenger
+```Survived```: passenger survive(1) or died(0)
+```Pclass```: passenger class
+```Name```: name
+```Sex```: gender of passenger
+```Age```: age of passenger
+```SibSp```: number of siblings/spouses
+```Parch```: number of parents/children
+```Ticket```: ticket number
+```Fare```: amount of money spent on ticket
+```Cabin```: cabin category
+```Embarked```: port where passenger embarked (C = Cherbourg, Q = Queenstown, S = Southampton)
 
 ## Deployment
 Link : (Titanic Survival Prediction)[https://app-titanic-7fmcqhnbcemxds8y28ornq.streamlit.app/]
