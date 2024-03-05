@@ -13,7 +13,7 @@ Resource: https://id.wikipedia.org/wiki/Tenggelamnya_RMS_Titanic#Referensi
 ## Problem Statement
 Melalui analisis dataset Titanic, tujuan penelitian ini adalah untuk menentukan faktor-faktor yang paling signifikan dalam mempengaruhi tingkat kelangsungan hidup penumpang. Analisis akan mencakup variabel seperti kelas tiket, jenis kelamin, usia, dan jumlah saudara kandung atau pasangan. Hasil analisis ini diharapkan dapat memberikan wawasan yang mendalam tentang karakteristik penumpang yang memiliki tingkat kelangsungan hidup lebih tinggi, yang pada gilirannya dapat membantu dalam pengembangan kebijakan keselamatan kapal atau rekomendasi pelayaran di masa depan.
 
-## Metrics Evaluation
+## Metrics Evaluation<br>
 ```Precision```: Karena kita ingin meminimalkan jumlah prediksi yang salah tentang orang yang tidak selamat. Artinya kita ingin mengurangi prediksi salah orang yang tidka selamat tapi kenyataannya selamat.<br>
 ```AUC-ROC```: mengukur kualitas keseluruhan model untuk memisahkan kelas positif dan negatif. Kurva ROC (Receiver Operating Characteristic) memplot nilai True Positive Rate (Recall) terhadap False Positive Rate pada berbagai threshold. AUC-ROC memberikan nilai keseluruhan kinerja model independen dari threshold.
 
