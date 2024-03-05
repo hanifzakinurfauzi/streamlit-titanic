@@ -17,7 +17,7 @@ Melalui analisis dataset Titanic, tujuan penelitian ini adalah untuk menentukan 
 ```Precision```: Karena kita ingin meminimalkan jumlah prediksi yang salah tentang orang yang tidak selamat. Artinya kita ingin mengurangi prediksi salah orang yang tidka selamat tapi kenyataannya selamat.<br>
 ```AUC-ROC```: mengukur kualitas keseluruhan model untuk memisahkan kelas positif dan negatif. Kurva ROC (Receiver Operating Characteristic) memplot nilai True Positive Rate (Recall) terhadap False Positive Rate pada berbagai threshold. AUC-ROC memberikan nilai keseluruhan kinerja model independen dari threshold.
 
-##Variable Description
+##Variable Description<br>
 ```PassengerId```: unique id number to each passenger<br>
 ```Survived```: passenger survive(1) or died(0)<br>
 ```Pclass```: passenger class<br>
